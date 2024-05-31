@@ -135,7 +135,8 @@ def extract_credentials(ocr_text):
 
 # Streamlit app
 def main():
-    st.title("ID Card OCR Scanner")
+    
+    st.title("ID Card OCR Scanner ")
 
     # Upload image
     uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
