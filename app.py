@@ -155,7 +155,7 @@ def main():
 
         # Display extracted credentials
         st.subheader("Extracted Credentials:")
-        st.write(f"Name: {name}" if name else "Name: Not found")
+        #st.write(f"Name: {name}" if name else "Name: Not found")
         st.write(f"Enrollment Number: {enrol_no}" if enrol_no else "Enrollment Number: Not found")
         st.write(f"Address: {address}" if address else "Address: Not found")
         st.write(f"Postal Code: {postal_code}" if postal_code else "Postal Code: Not found")
